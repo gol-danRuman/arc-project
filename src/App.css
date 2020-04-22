@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100%;
+  align-items: stretch;
 }
 
 .App-logo {
@@ -23,6 +25,13 @@
   color: #61dafb;
 }
 
+.content{
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +39,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'CaviaDreams';
+  src: local('CaviaDreams'), url(./fonts/CAVIARDREAMS.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'CaviaDreamsBold';
+    font-weight: 900;
+    src: local('CaviaDreams'), url(./fonts/CAVIARDREAMS_BOLD.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'CaviaDreamsItalic';
+    font-weight: 900;
+    src: local('CaviaDreams'), url(./fonts/CAVIARDREAMS_ITALIC.TTF) format('truetype');
+}
+@font-face {
+  font-family: 'CaviaDreamsBoldItalic';
+  font-weight: 900;
+  src: local('CaviaDreams'), url(./fonts/CAVIARDREAMS_BOLDITALIC.TTF) format('truetype');
 }

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    padding: 0 55px;
+  }
+  
+  .item {
+    background: transparent;
+    flex: 0 0 19.7%;
+    text-align: center;
+    margin: 0 2px;
+    transition: transform 300ms ease 100ms;
+  }
+.our-player-play-pause{
+    display: inline-flex;
+    float: left;
+}
+.our-player-fullscreen{
+    float: right;
+}
+//   .container:hover .item {
+//     transform: translateX(-25%);
+//  }
+
+//  .item:hover ~ .item {
+//     transform: translateX(25%);
+//  }
