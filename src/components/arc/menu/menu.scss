@@ -1,0 +1,34 @@
+.menu{
+    position: absolute;
+    bottom: 3vh;
+    margin-left: 1vw;
+    // position: relative;
+    z-index: 20;
+}
+
+.menu-item{
+    bottom: 5vh;
+    position: absolute;
+    display: inline-grid;
+    left: 8vw;
+    float: right;
+    text-align: right;
+
+}
+
+.root-content{
+    display: inline-flex;
+}
+
+.company-content{
+    width: 27vw;
+    height: 50vh;
+    padding-top: 4vh;
+    float: left;
+    text-align: right;
+}
+
+.full-slider{
+    position: fixed;
+    display: inline-flex;
+}
