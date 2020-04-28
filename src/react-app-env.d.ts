@@ -4,3 +4,4 @@ declare module "react-player/lib/players/YouTube"
 declare module "screenfull"
 declare module "react-carousel-slider"
 declare module "react-image-gallery"
+declare module 'react-css-burger'

@@ -1,26 +1,53 @@
 .container {
-    display: flex;
+    display: inline-block;
     padding: 0 55px;
+    // margin-top: 20vh;
   }
   
-  .item {
+.item {
     background: transparent;
     flex: 0 0 19.7%;
+    padding-right: 10vw;
     text-align: center;
-    margin: 0 2px;
+    margin: 0 0;
+    height: 70vh;
+    width: 60vw;
+    position: relative;
+    z-index: 10;
     transition: transform 300ms ease 100ms;
-  }
+
+    >div img{
+        height: 80vh;
+        padding-bottom: 9vh;
+        // padding-left: 35vh;
+        width: 60vw; 
+    }
+}
+.player-ours{
+    width: 60vw;
+    height: 70vh;
+    // margin-top: 20vh;
+}
+
+
+.company-content{
+    height: 50vh;
+    // padding-top: 4vh;
+    float: right;
+    text-align: right;
+}
+
+.item.active{
+    display: inline;
+        
+}
 .our-player-play-pause{
     display: inline-flex;
     float: left;
 }
-.our-player-fullscreen{
+.slider-buttons{
     float: right;
+    padding-right: 8vw;
+    position: relative;
+    z-index: 20;
 }
-//   .container:hover .item {
-//     transform: translateX(-25%);
-//  }
-
-//  .item:hover ~ .item {
-//     transform: translateX(25%);
-//  }
