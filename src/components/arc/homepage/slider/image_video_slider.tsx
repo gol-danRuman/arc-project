@@ -10,6 +10,7 @@ import "./slider.scss"
 import YouTubePlayer from 'react-player/lib/players/YouTube';
 
 import Slider from "react-slick";
+import Footer from "../../../footer/footer.jsx";
 
 const ArcHomePageSlider = (props: any) => {
 
@@ -77,13 +78,13 @@ const ArcHomePageSlider = (props: any) => {
       </div>
       <div className="our-player-button">
         <div className="our-player-play-pause">
-          <button className="play" onClick={_onPlay}>Play</button>
-          <button className="pause" onClick={_onPause}>Pause</button>
+          <button className="pause button pause" onClick={_onPause}></button>
+          <button className="play button play" onClick={_onPlay}>&#9655;</button>
         </div>
-        <div className="our-player-fullscreen">
+        {/* <div className="our-player-fullscreen">
           <button className="fullScreen" onClick={_toogleFullScreen}>FullScreen</button>
 
-        </div>
+        </div> */}
       </div>
 
 
@@ -119,12 +120,13 @@ const ArcHomePageSlider = (props: any) => {
     return (
       <div className="slider-buttons">
         <button disabled={activeIndex === 0} className="prev" onClick={_prev}>
-          Prev
+        &#8249;
          </button>
-        {activeIndex + 1 + "/" + data.length}
+         <a className="number-text">{activeIndex + 1 + "/" + data.length}</a>
         <button disabled={activeIndex >= data.length - 1} className="next" onClick={() => _next(data)}>
-          Next
+        &#8250;
         </button>
+        <Footer></Footer>
       </div>
     )
   }

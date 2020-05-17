@@ -7,12 +7,14 @@ import Routes from "./components/Routes";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 class App extends React.Component<any> {
 
 
   render() {
     return (
       <main id="content">
+
           <Routes />
       </main>
     );

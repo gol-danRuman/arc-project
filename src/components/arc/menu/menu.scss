@@ -1,13 +1,13 @@
 .menu{
     position: absolute;
-    bottom: 3vh;
+    bottom: 7vh;
     margin-left: 1vw;
     // position: relative;
     z-index: 20;
 }
 
 .menu-item{
-    bottom: 5vh;
+    bottom: 10vh;
     position: absolute;
     display: inline-grid;
     left: 8vw;
@@ -25,10 +25,11 @@
     height: 50vh;
     padding-top: 4vh;
     float: left;
-    text-align: right;
+    text-align: justify
 }
 
 .full-slider{
     position: fixed;
     display: inline-flex;
+    margin-top: -30px;
 }

@@ -1,8 +1,8 @@
-.container {
-    display: inline-block;
-    padding: 0 55px;
-    // margin-top: 20vh;
-  }
+// .container {
+//     display: inline-block;
+//     padding: 0 60px;
+//     // margin-top: 20vh;
+//   }
   
 .item {
     background: transparent;
@@ -47,7 +47,77 @@
 }
 .slider-buttons{
     float: right;
-    padding-right: 8vw;
+    padding-right: 3.5vw;
     position: relative;
     z-index: 20;
 }
+
+.button.play {
+    background-color: #fff;
+    font-size: 23px;
+    border-style: solid;
+    border-width: 0px;
+    &:hover {
+          border-color: transparent transparent transparent #241c1c86;
+        }
+    background: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .button.pause {
+    margin-top: 16px;
+    margin-right: -11px;
+    height: 16px;
+    border-style: double;
+    border-width: 0px 0px 0px 15px;
+    border-color: #202020;
+    cursor: pointer;
+    background: transparent;
+    &:hover {
+      border-color: transparent transparent transparent #241c1c86;
+    }
+}
+
+.number-text {
+    font-size: 15px;
+    // float: right; 
+    // padding-top: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    // display: inline-block;
+    padding: 0px 0px;
+    margin-top: 0px;
+  }
+
+// .button.prev {
+//     // padding-top: 3px;
+//     color: black;
+//     background: transparent;
+//     font-size: 40px;
+//     border-width: 0px;
+//   }
+  
+//   .button.next {
+//     // padding-top: 3px;
+//     background: transparent;
+//     color: black;
+//     font-size: 40px;
+//     border-width: 0px;
+//   }
+
+  .prev {
+    background: transparent;
+    border: 0px;
+    margin: 6px 0px 6px 115px;
+    font-size: 25px;
+  }
+
+  .next {
+    background: transparent;
+    border: 0px;
+    margin: 6px 0px;
+    font-size: 25px;
+  }

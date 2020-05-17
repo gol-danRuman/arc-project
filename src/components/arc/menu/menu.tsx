@@ -1,10 +1,11 @@
 import React, { Fragment, useState } from "react";
 import "./menu.scss";
-import { slide as Menu } from 'react-burger-menu';
+import { slide as Menu } from "react-burger-menu";
 import Burger from 'react-css-burger';
 import { Link } from "react-router-dom";
 import ArcHomePageSlider from "../homepage/slider/image_video_slider";
 import ContactPage from "../contact/contact";
+import AboutUs from "../aboutus/about";
 
 const MenuBar = (props: any) => {
     const [active, setActive] = useState(false);
@@ -13,32 +14,14 @@ const MenuBar = (props: any) => {
     const renderTopMenuList = () => {
         return(
             <div className="menu-item">
-            <div onClick={()=> setActiveTab('about')}>
-                ABOUT
-            </div>
-            <div onClick={()=> setActiveTab('contacts')}>
-                CONTACTS
-            </div>
-
-            </div>
-        )
-    }
-
-    const renderAboutMenuList = () => {
-        return(
-
-            <div className="menu-item">
-            <div >
-                INTRODUCTION
-            </div>
-            <div >
-                TEAM
-            </div>
-            <div >
-                ABOUT
-            </div>
-            </div>
+                <Link to="/about">ABOUT</Link>
             
+                <div>
+                    WORKS
+                </div>
+                <Link to="/contact">CONTACT</Link>
+
+            </div>
         )
     }
 
@@ -47,7 +30,7 @@ const MenuBar = (props: any) => {
             case '':
                 return renderTopMenuList() 
             case 'about':
-                return renderAboutMenuList()
+                return <AboutUs/>
             case 'contacts':
                 return <ContactPage/>
             default:
@@ -58,12 +41,11 @@ const MenuBar = (props: any) => {
         return (
           <div className="company-content">
             <div className="title">
-              Project Name
-                        </div>
+                Project Name
+            </div>
             <div className="description">
-              Project Description
-                        </div>
-    
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, changed.
+            </div>
           </div>
         )
       }
