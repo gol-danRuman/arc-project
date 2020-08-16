@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/arc-project/static/css/main.030330ce.chunk.css",
+    "main.js": "/arc-project/static/js/main.82e5422e.chunk.js",
+    "main.js.map": "/arc-project/static/js/main.82e5422e.chunk.js.map",
+    "runtime-main.js": "/arc-project/static/js/runtime-main.4d690b38.js",
+    "runtime-main.js.map": "/arc-project/static/js/runtime-main.4d690b38.js.map",
+    "static/css/2.fc81494e.chunk.css": "/arc-project/static/css/2.fc81494e.chunk.css",
+    "static/js/2.c6c7d42f.chunk.js": "/arc-project/static/js/2.c6c7d42f.chunk.js",
+    "static/js/2.c6c7d42f.chunk.js.map": "/arc-project/static/js/2.c6c7d42f.chunk.js.map",
+    "index.html": "/arc-project/index.html",
+    "precache-manifest.e612f110e064ab22b509ecd97e7469e2.js": "/arc-project/precache-manifest.e612f110e064ab22b509ecd97e7469e2.js",
+    "service-worker.js": "/arc-project/service-worker.js",
+    "static/css/2.fc81494e.chunk.css.map": "/arc-project/static/css/2.fc81494e.chunk.css.map",
+    "static/css/main.030330ce.chunk.css.map": "/arc-project/static/css/main.030330ce.chunk.css.map",
+    "static/js/2.c6c7d42f.chunk.js.LICENSE.txt": "/arc-project/static/js/2.c6c7d42f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/arc-project/static/media/CAVIARDREAMS_ITALIC.e67f5c38.TTF",
+    "static/media/c1.jpg": "/arc-project/static/media/c1.7e647476.jpg",
+    "static/media/team.jpg": "/arc-project/static/media/team.9026f730.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d690b38.js",
+    "static/css/2.fc81494e.chunk.css",
+    "static/js/2.c6c7d42f.chunk.js",
+    "static/css/main.030330ce.chunk.css",
+    "static/js/main.82e5422e.chunk.js"
+  ]
+}
